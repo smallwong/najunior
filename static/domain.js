@@ -37,6 +37,10 @@ const subjectSelector = (id, index) => {
     }
   })
 
+  if (semester && subject) {
+    document.getElementById('subject_options').classList.add('active');
+  }
+
   if (semester === '112上' && subject) {
     const oneYear = document.getElementById('oneYear');
     showDomHandle(oneYear);
