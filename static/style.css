@@ -2,14 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #c7dca7;
+  font-weight: 700;
+}
+
+body {
+  font-family: Microsoft JhengHei, 微軟正黑體, sans-serif;
 }
 
 .banner {
   width: 100%;
   padding: 5%;
-  background-color: #89b9ad;
+  background-color: #527aa7;
+  color: #fff;
   font-size: 2em;
+  text-shadow: 1.5px 1.5px 2px #333;
 }
 
 .container {
@@ -44,15 +50,15 @@
   width: 135px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #3876bf;
-  color: #fff;
+  background-color: #d3edea;
+  color: #000;
   text-align: center;
   margin: 10px;
   font-size: 1.2em;
   cursor: pointer;
 }
 .selector_box .selector .button_box .button.active {
-  background-color: #f9b572;
+  background-color: #99c3c9;
 }
 
 .subject_wrapper {
@@ -62,8 +68,9 @@
 }
 .subject_wrapper .subject_box .title {
   width: 100%;
-  background-color: #192655;
+  background-color: #58c4b6;
   color: #fff;
+  text-shadow: 1.5px 1.5px 2px #333;
   padding: 10px;
   border-radius: 5px;
 }
@@ -78,8 +85,8 @@
 .subject_wrapper .subject_box .subject_group .subject {
   width: 155px;
   padding: 10px;
-  background-color: #3876bf;
-  color: #fff;
+  background-color: #d3edea;
+  color: #000;
   margin: 5px;
   border-radius: 10px;
   text-align: center;
@@ -106,4 +113,16 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #bbb;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
 }
