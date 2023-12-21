@@ -405,7 +405,7 @@ window.onscroll = () => {
 
 const onScrollHandle = () => {
   const topBtn = document.getElementById("scrollTop");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
     topBtn.style.display = "flex";
   } else {
     topBtn.style.display = "none";
@@ -413,6 +413,8 @@ const onScrollHandle = () => {
 }
 
 const goTop = () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
 }
