@@ -131,7 +131,7 @@ const clickResource = (resource, year) => {
       goToResource('https://docs.google.com/spreadsheets/d/1ugrlpRpo6RvjUospPes3aF4hKHuSEN3FqIWyCcADgng/edit#gid=1934389515')
       break;
     case semester === '下學期' && subject === '國文' && resource === "wordwall" && year === 3:
-      goToResource('https://docs.google.com/spreadsheets/d/1q7p4Y0xplN6vUYOeapTsVTW9M-2qBaV3lGxsLMPmQw4/edit#gid=1584925057')
+      goToResource('https://docs.google.com/spreadsheets/d/1q7p4Y0xplN6vUYOeapTsVTW9M-2qBaV3lGxsLMPmQw4/edit#gid=1934389515')
       break;
 
 
@@ -673,7 +673,7 @@ const clickResource = (resource, year) => {
       goToResource('https://docs.google.com/spreadsheets/d/1tHIzU2zjLpUuvfgbFDjIuCKBf5rKIYk91x2TABMdE8k/edit#gid=543373563')
       break;
     case semester === '下學期' && subject === '科技' && resource === "kahoot" && year === 3:
-      goToResource('https://docs.google.com/spreadsheets/d/1tHIzU2zjLpUuvfgbFDjIuCKBf5rKIYk91x2TABMdE8k/edit?usp=sharing')
+      goToResource('https://docs.google.com/spreadsheets/d/1tHIzU2zjLpUuvfgbFDjIuCKBf5rKIYk91x2TABMdE8k/edit#gid=33725064')
       break;
 
 
